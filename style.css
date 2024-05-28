@@ -329,3 +329,18 @@ body{
         transform: translate(-36vmin, -1.1vmin) rotateY(-80deg) rotateX(35deg);
     }
 }
+
+.container{
+    color: white;
+    scale: 200%;
+    animation: opacity-color 6s;
+}
+
+@keyframes opacity-color {
+    0%, 50%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
